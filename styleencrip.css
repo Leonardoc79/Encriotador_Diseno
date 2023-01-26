@@ -1,0 +1,102 @@
+*{
+    background: #F2BC94;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+.logo{
+    background: #F2BC94;
+    padding-top: 10px;
+    width: 10%;
+  
+}
+
+.titulo-1{
+    color: #722620;
+    
+}
+
+main{
+    display: flex;
+    margin-bottom:50px;
+    margin-left: 80px;
+}
+
+.text_area{
+    border: none;
+    color: #722620;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #722620;}
+    .text_area{
+        outline: none;
+    }
+
+.mensaje{
+    background: #f7ceae;
+    background-image: url("imagenencrip/lupamister.png");
+    background-size: 310px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #722620;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background: #F2BC94;
+    border: 1px solid #30110d;
+    border-radius: 24px;
+    color: #722620;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 329px;
+}
+
+.btn-encriptar{
+    background-color: #722620;
+    border: #30110d;
+    border-radius: 24px;
+    color: #F2BC94;
+    cursor: pointer;
+    height: 67px;
+    width: 329px;
+}
+
+
+.btn-copiar{
+    border: 1px solid #30110d;
+    border-radius: 24px;
+    color: #722620;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 435px;
+    position: absolute;
+    width: 336px;
+    background-color: #F2BC94;
+}
+
+.informacion{
+    color: #722620;
+    font-size: 18px;
+}
